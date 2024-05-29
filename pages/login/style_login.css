@@ -1,0 +1,95 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#user-indi{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font: normal 13pt Arial;
+}
+
+#user-input{
+    margin-bottom: 50px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#user-input::placeholder{
+    text-align: center;
+}
+
+#passw-indi{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font: normal 13pt Arial;
+}
+
+#passw-input{
+    margin-bottom: 80px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#passw-input::placeholder{
+    text-align: center;
+}
+
+#login-button-input{
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(216, 130, 205);
+    border-color: rgba(240, 248, 255, 0);
+    font: normal 15pt Arial;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#login-button-input:hover{
+    transform: scale(1.06);
+    cursor:pointer;
+}
+
+#login-button-input:active{
+    transform: scale(0.99);
+}
+
+#back-button-input{
+    font: normal 10pt Arial;
+    font-weight: 600;
+    margin-top: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    text-decoration: none;
+    color: black;
+}
