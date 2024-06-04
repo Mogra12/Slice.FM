@@ -10,6 +10,8 @@ Slice.fm é um site de reprodução de músicas que permite aos usuários ouvir 
 - **Controles de Reprodução:** Controle a reprodução com botões de play, pause, avançar e retroceder.
 - **Barra de Progresso:** Veja o progresso da música com uma barra de progresso interativa.
 
+![Slice.fm](Slice_fm_player.png)
+
 ## Instalação
 
 1. Clone este repositório: `git clone https://github.com/seu-usuario/slice-fm.git`
