@@ -5,12 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/slice.fm_favi.ico" type="image/x-icon">
     <link rel="stylesheet" href="/pages/site/style_main_index.css">
+    <script src="script_main_site.js"></script>
     <title>Slice.FM</title>
 </head>
 <body>
     <div class="footer-top">
-        <a href="http://127.0.0.1:5500/pages/main/index.html" id="footer-top-left-text">Slice.FM</a>
-        <p id="div-slicer"></p> 
+        <a href="http://127.0.0.1:5500/pages/site/main_site_index.html" id="footer-top-left-text">Slice.FM</a>
+        <a href="http://127.0.0.1:5500/pages/profile/index_profile.html" id="user-profile">
+            <img src="/images/user.png" id="user-profile-ico-wouser">
+        </a>
+    </div>
+    <div class="main-content-site">
+        <div class="player1">
+            <div class="album-conteiner-player1">
+                <img src="/images/MacDeMarcoAnotherOne.png" id="album-image-player1">
+                <p id="name-player1">No Other Heart - Mac DeMarco</p>
+            </div>
+            <div class="in-player1">
+                <input type="range" id="audio-progress-player1" value="0" max="100">
+                <div class="buttons-inplayer1">
+                    <input type="button" value="Play" id="play-button-player1" onclick="play()">
+                    <input type="button" value="Pause" id="pause-button-player1" onclick="pause()">
+                </div>
+            <audio id="audio-player-1">
+                <source src="/audio/nootherheart.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            </div>
+        </div>
     </div>
 </body>
 </html>
