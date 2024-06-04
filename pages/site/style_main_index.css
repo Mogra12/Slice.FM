@@ -124,3 +124,7 @@ body{
 #pause-button-player1:active{
     transform: scale(0.99);
 }
+
+#timerupdate-audio{
+    font: normal 10pt Arial;
+}
