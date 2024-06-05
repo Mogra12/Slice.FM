@@ -3,7 +3,6 @@
 Slice.fm é um site de reprodução de músicas que permite aos usuários ouvir suas músicas favoritas em qualquer lugar, a qualquer hora.
 
 ![Slice.fm](project/first_window_index.png)
-![Slice.fm](project/first_window_index_down.png)
 ## Recursos
 
 - **Reprodução de Músicas:** Ouça uma ampla variedade de músicas de diferentes gêneros.
