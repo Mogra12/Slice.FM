@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/images/slice.fm_favi.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/src/pages/site/style_main_index.css">
+    <!-- biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Slice.FM</title>
+</head>
+<body>
+    <div class="footer-top">
+        <a href="http://127.0.0.1:5500/src/pages/profile/index_profile.html" id="user-profile">
+            <img src="/src/images/user.png" id="user-profile-ico-wouser">
+        </a>
+    </div>
+
+    <div class="main-content-site">
+        <div class="main-content-site-inlineop">
+
+            <div class="player1">
+                <div class="album-conteiner-player1">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/MacDeMarcoAnotherOne.png" id="album-image-player1">
+                    </a>
+                    <p id="name-player1">No Other Heart - Mac DeMarco</p>
+                </div>
+
+                <div class="in-player1">
+                    <input type="range" id="audio-progress-player1" value="0" min="0" max="100">
+                    <div class="buttons-inplayer1">
+                        <button value="Play" id="play-button-player1" onclick="playAudio()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player1" onclick="pauseAudio()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-1">
+                        <source src="/src/audio/nootherheart.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+            <div class="player2">
+                <div class="album-conteiner-player2">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/thisouldogalbum.jpg" id="album-image-player2">
+                    </a>
+                    <p id="name-player2">Still Beating - Mac DeMarco</p>
+                </div>
+
+                <div class="in-player2">
+                    <input type="range" id="audio-progress-player2" value="0" min="0" max="100">
+                    <div class="buttons-inplayer2">
+                        <button value="Play" id="play-button-player2" onclick="playAudio2()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player2" onclick="pauseAudio2()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-2">
+                        <source src="/src/audio/stillbeating.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script_main_site.js"></script>
+
+</body>
+</html>
