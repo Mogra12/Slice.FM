@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    height: 200vh;
+    height: 100%;
     background-image: url("/src/images/CosmicFusion.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,14 @@ body{
 .footer-top{
     display: flex;
     align-items: center;
+}
+
+#signout-opt{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font: normal 13pt Arial;
+    font-weight: 600;
 }
 
 #user-profile-ico-wouser{
@@ -195,5 +203,231 @@ body{
 }
 
 #pause-button-player2:active{
+    transform: scale(0.99);
+}
+
+/*AUDIO STYLING player 3*/
+
+.player3{
+    width: 700px;
+    height: 300px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+}
+.album-conteiner-player3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#album-image-player3{
+    border-radius: 10pt;
+}
+
+#name-player3{
+    padding-top: 20px;
+    font: normal 12pt Arial;
+    font-weight: 600;
+}
+
+.in-player3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#audio-progress-player3{
+    width: 350px;
+    height: 40px;
+}
+
+#play-button-player3{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#play-button-player3:active{
+    transform: scale(0.99);
+}
+
+#pause-button-player3{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#pause-button-player3:active{
+    transform: scale(0.99);
+}
+
+/*AUDIO STYLING player 4*/
+
+.player4{
+    width: 700px;
+    height: 300px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+}
+.album-conteiner-player4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#album-image-player4{
+    border-radius: 10pt;
+}
+
+#name-player4{
+    padding-top: 20px;
+    font: normal 12pt Arial;
+    font-weight: 600;
+}
+
+.in-player4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#audio-progress-player4{
+    width: 350px;
+    height: 40px;
+}
+
+#play-button-player4{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#play-button-player4:active{
+    transform: scale(0.99);
+}
+
+#pause-button-player4{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#pause-button-player4:active{
+    transform: scale(0.99);
+}
+
+/*AUDIO STYLING player 5*/
+
+.player5{
+    width: 700px;
+    height: 300px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+}
+.album-conteiner-player5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#album-image-player5{
+    border-radius: 10pt;
+}
+
+#name-player5{
+    padding-top: 20px;
+    font: normal 12pt Arial;
+    font-weight: 600;
+}
+
+.in-player5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#audio-progress-player5{
+    width: 350px;
+    height: 40px;
+}
+
+#play-button-player5{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#play-button-player5:active{
+    transform: scale(0.99);
+}
+
+#pause-button-player5{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(88, 133, 255);
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font: normal 10pt arial;
+    color: white;
+}
+
+#pause-button-player5:active{
     transform: scale(0.99);
 }
