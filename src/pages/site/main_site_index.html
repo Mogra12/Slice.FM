@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/images/icos/logo_site.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/src/pages/site/style_main_index.css">
+    <!-- Font Awesome lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- AOS lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Slice.FM</title>
+</head>
+<body>
+    <div class="footer-top">
+        <a href="http://127.0.0.1:5500/src/pages/profile/index_profile.html" id="user-profile">
+            <img src="/src/images/user.png" id="user-profile-ico-wouser">
+            <a href="http://127.0.0.1:5500/src/pages/login/index_login.html" id="signout-opt">Sair</a>
+        </a>
+    </div>
+
+    <div class="main-content-site">
+        <div class="main-content-site-inlineop">
+            <!----------------------------------------------------------------------------------------->
+            <div class="player1" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <div class="album-conteiner-player1">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/album_caps/MacDeMarcoAnotherOne.png" id="album-image-player1">
+                    </a>
+                    <p id="name-player1">No Other Heart - Mac DeMarco</p>
+                </div>
+
+                <div class="in-player1">
+                    <input type="range" id="audio-progress-player1" value="0" min="0" max="100">
+                    <div class="buttons-inplayer1">
+                        <button value="Play" id="play-button-player1" onclick="playAudio()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player1" onclick="pauseAudio()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-1">
+                        <source src="/src/audio/music/nootherheart.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+            <div class="player2" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <div class="album-conteiner-player2">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/album_caps/thisouldogalbum.jpg" id="album-image-player2">
+                    </a>
+                    <p id="name-player2">Still Beating - Mac DeMarco</p>
+                </div>
+
+                <div class="in-player2">
+                    <input type="range" id="audio-progress-player2" value="0" min="0" max="100">
+                    <div class="buttons-inplayer2">
+                        <button value="Play" id="play-button-player2" onclick="playAudio2()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player2" onclick="pauseAudio2()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-2">
+                        <source src="/src/audio/music/stillbeating.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+            <div class="player3" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <div class="album-conteiner-player3">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/album_caps/Madvillainalbum.jpg" id="album-image-player3">
+                    </a>
+                    <p id="name-player3">Meat Grinder - MF DOOM</p>
+                </div>
+
+                <div class="in-player3">
+                    <input type="range" id="audio-progress-player3" value="0" min="0" max="100">
+                    <div class="buttons-inplayer3">
+                        <button value="Play" id="play-button-player3" onclick="playAudio3()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player3" onclick="pauseAudio3()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-3">
+                        <source src="/src/audio/music/meatgrinder.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+            <div class="player4" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="600">
+                <div class="album-conteiner-player4">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/album_caps/operationdoomsday.jpg" id="album-image-player4">
+                    </a>
+                    <p id="name-player4">Gas Drawls - MF DOOM</p>
+                </div>
+
+                <div class="in-player4">
+                    <input type="range" id="audio-progress-player4" value="0" min="0" max="100">
+                    <div class="buttons-inplayer4">
+                        <button value="Play" id="play-button-player4" onclick="playAudio4()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player4" onclick="pauseAudio4()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-4">
+                        <source src="/src/audio/music/gasdrawls.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+            <div class="player5" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="600">
+                <div class="album-conteiner-player5">
+                    <a href="https://open.spotify.com/intl-pt/track/2aaCNg42RA74s0EmHTBqS7?si=14184b41ec9c462d" target="_blank">
+                        <img src="/src/images/album_caps/illmatic.jpg" id="album-image-player5">
+                    </a>
+                    <p id="name-player5">N.Y State Of Mind - Nas</p>
+                </div>
+
+                <div class="in-player5">
+                    <input type="range" id="audio-progress-player5" value="0" min="0" max="100">
+                    <div class="buttons-inplayer5">
+                        <button value="Play" id="play-button-player5" onclick="playAudio5()"><i class="fas fa-play"></i></button>
+                        <button value="Pause" id="pause-button-player5" onclick="pauseAudio5()"><i class="fas fa-pause"></i></button>
+                    </div>
+                    <audio id="audio-player-5">
+                        <source src="/src/audio/music/nystateofmind.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <!----------------------------------------------------------------------------------------->
+        </div>
+    </div>
+    <!-- AOS init -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Main script -->
+    <script src="script_main_site.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/images/icos/logo_site.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/src/pages/login/style_login.css">
+    <!-- Font Awesome lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- AOS lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS3 Magic Animation lib -->
+    <link rel="stylesheet" href="/dependecies/magic-master/dist/magic.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-content">
+        <form>
+            <div class="login-part" data-aos="fade-down" data-aos-duration="1500">
+                    <p id="user-indi">Usuário</p> 
+                    <input type="text" name="user" autocomplete="off" id="user-input"> <!--User input-->
+                    <p id="passw-indi">Senha</p>
+                    <input type="password" name="passwordin" id="passw-input"> <!--Password input-->
+                    
+                    <input type="button" value="Login" name="login" id="login-button-input" onclick="login_page()">
+                    <a href="http://127.0.0.1:5500/src/pages/main/index.html" id="back-button-input">Voltar</a>
+                        
+                    <span id="span-login-failed"></span> <!--Login fail alert-->
+            </div>
+        </form>
+
+        <div class="main-content2" data-aos="fade-down" data-aos-duration="2000">
+                <p id="main-content2-text">Planos individuais</p>
+                <p id="main-content2-text2">A partir de <a href="" id="link-shopping">R$19,90<i class="fa fa-shopping-cart"></i></a></p>
+            </div>
+        </div>
+    </div>
+    <!-- AOS init -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Main script -->
+    <script src="script_login.js"></script>
+    
+</body>
+</html>

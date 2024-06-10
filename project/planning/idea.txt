@@ -1,0 +1,17 @@
+o site e voltado pra musica, vou fazer:
+- tela inicial --
+- tela de login --
+- tela de download --
+- tela dentro do site ---
+
+na tela dentro do site vai conter 5 musicas, com:
+- nome da musica
+- nome do artista
+- um player da musica
+- foto da capa da musica
+
+--------------------------------------------------------------------
+fazer alguns ajustes no projeto:
+ - fazer ajustes na tela de download
+ - integrar um banco de dados SQL
+ - adicionar 5 players no site
